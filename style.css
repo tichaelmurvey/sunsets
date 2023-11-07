@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap');
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #003049;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+body > div, footer {
+    background-color: #FCBF49;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: #F77F00 0 0 0 5px, #D62828 0 0 0 10px;
+    text-align: center;
+}
+
+button.buttonstyle {
+    border: none;
+    box-shadow: #F77F00 0 0 0 3px, #D62828 0 0 0 6px;
+    margin: 20px 10px;
+    font-size: large;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fcf1d5;
+    cursor: pointer;
+}
+button:hover{
+    box-shadow:  #D62828 0 0 0 6px;
+
+}
+
+#stream {
+    height: 45vw;
+    background-color: #000;
+}
+
+#next{
+    display: block;
+    margin:auto;
+}
+
+a {
+    color: #6A040F;
+}
+a:visited {
+    color: #370617;
+}
+iframe {
+    border: none;
+}
+
+input {
+    border: 2px solid #370617;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+footer a.fun {
+    font-size: 1.5rem;
+    font-family: 'Bungee Shade', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
