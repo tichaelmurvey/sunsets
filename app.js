@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     button = document.querySelector('#next');
     //Get sunset data
     let sunsetData = await fetch('https://sunset-data-1-michaelmont.replit.app/')
+    .then(response => response.json())
     console.log(sunsetData.length);
     //Sort the sunset data by time
     sunsetData.sort(function(a, b){
