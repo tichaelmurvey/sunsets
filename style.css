@@ -82,3 +82,9 @@ a.fun {
 #broken {
     display: none;
 }
+
+.bmc-btn {
+   border: 5px solid black !important;
+   font-family: 'Roboto', sans-serif !important;
+   padding-right: 40px !important;
+}
