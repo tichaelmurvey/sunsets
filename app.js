@@ -124,6 +124,8 @@ function updateSite(){
         renderStream(currentSunset);
     }
     button.innerText = `Next sunset (${currentIndex + 1}/${currentSunsets.length})`;
+    //Update broken form with link to current stream
+    document.querySelector('#broken').value = currentSunset.Stream;
     //Run function again in 1 minute
     setTimeout(updateSite, 6000);
 }
