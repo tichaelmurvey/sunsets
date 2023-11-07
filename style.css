@@ -12,9 +12,19 @@ body > div, footer {
     background-color: #FCBF49;
     border-radius: 5px;
     padding: 10px;
-    margin: 30px;
+    margin: 40px;
     box-shadow: #F77F00 0 0 0 5px, #D62828 0 0 0 10px;
     text-align: center;
+}
+
+#stream {
+    margin-top: 0;
+}
+
+header {
+    padding: 0 10px;
+    margin: 0 30px;
+
 }
 
 button.buttonstyle {
@@ -62,11 +72,10 @@ input {
     margin-left: 10px;
 }
 
-footer a.fun {
+a.fun {
     font-size: 1.5rem;
     font-family: 'Bungee Shade', sans-serif;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
 }
 

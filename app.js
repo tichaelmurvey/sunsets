@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     currentSunset = currentSunsets[currentIndex];
     button.innerText = `Next sunset (${currentIndex + 1}/${currentSunsets.length})`;
     renderStream(currentSunset);
-    checkAllTimes();
+    //checkAllTimes();
     updateSite();
 });
 
