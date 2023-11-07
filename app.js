@@ -66,13 +66,13 @@ function renderStream(currentSunset){
         //If it is, get the video ID
         let videoID = currentSunset.Stream.split('v=')[1];
         //Create the iframe
-        iframe.src = `https://www.youtube.com/embed/${videoID}?&autoplay=1`;
+        iframe.src = `https://www.youtube.com/embed/${videoID}?autoplay=1&mute=1&fullscreen=1`;
         iframe.width = "100%";
         iframe.height = "100%";
         iframe.frameborder = "0";
         //Start playing the video automatically
 
-        iframe.allow = "autoplay, fullscreen";
+        iframe.allow = "fullscreen";
         iframe.allowfullscreen = "true";
         iframe.allowfullscreen="allowfullscreen"
     }
