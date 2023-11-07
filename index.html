@@ -14,13 +14,13 @@
     <div id="suggest">
         <h2>Suggest a sunset</h2>
         <p>Send me a Youtube stream and I might add it to the site.</p>
-        <form>
+        <form name="submission" netlify>
             <label for="link">Link</label>
             <input type="text" name="link" id="link" required>
             <button class="buttonstyle" type="submit" value="Submit">Submit</button>
         </form>
         <h2>This livestream is broken</h2>
-        <form action="">
+        <form name="broken" method="POST" netlify>
             <button class="buttonstyle" type="submit">Press this button and I'll try to fix it.</button>    
         </form>
     </div>
