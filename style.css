@@ -24,6 +24,7 @@ body > div, footer {
 header {
     /* padding: 0 10px; */
     margin-left: 35px;
+    min-height: 30px;
 
 }
 
