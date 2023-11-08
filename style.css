@@ -22,8 +22,8 @@ body > div, footer {
 }
 
 header {
-    padding: 0 10px;
-    margin: 0 30px;
+    /* padding: 0 10px; */
+    margin-left: 35px;
 
 }
 
