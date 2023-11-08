@@ -32,6 +32,10 @@ header {
     header {
         margin-bottom: 20px;
     }
+    #stream {
+        width: 95%;
+        height: auto;
+    }
 }
 
 button.buttonstyle {
