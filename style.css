@@ -24,7 +24,9 @@ body > div, footer {
 header {
     /* padding: 0 10px; */
     margin-left: 35px;
+    margin-bottom: 10px;
     min-height: 30px;
+    border: 1px solid red;
 
 }
 
@@ -45,7 +47,7 @@ button:hover{
 }
 
 #stream {
-    height: 45vw;
+    height: 40vw;
     background-color: #000;
 }
 
