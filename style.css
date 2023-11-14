@@ -38,7 +38,7 @@ header {
     }
 }
 
-button.buttonstyle {
+.buttonstyle {
     border: none;
     box-shadow: #F77F00 0 0 0 3px, #D62828 0 0 0 6px;
     margin: 20px 10px;
@@ -48,8 +48,11 @@ button.buttonstyle {
     border-radius: 5px;
     background-color: #fcf1d5;
     cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
 }
-button:hover{
+button:hover, .buttonstyle:hover {
     box-shadow:  #D62828 0 0 0 6px;
 
 }
