@@ -65,6 +65,9 @@ function renderStream(currentSunset){
     document.querySelector('#stream').innerHTML = "";
     //Add iframe to stream div
     document.querySelector('#stream').appendChild(iframe);
+    //Update broken form with link to current stream
+    document.querySelector('#broken').value = currentSunset.Stream;
+    console.log("broken  link" + document.querySelector('#broken').value)
 
     //Add info to info div
     let info = document.querySelector("#info");
@@ -101,8 +104,6 @@ function updateSite(){
         renderStream(currentSunset);
     }
     button.innerText = `Next sunset (${currentIndex + 1}/${currentSunsets.length})`;
-    //Update broken form with link to current stream
-    document.querySelector('#broken').value = currentSunset.Stream;
     //Run function again in 1 minute
     setTimeout(updateSite, 6000);
 }
