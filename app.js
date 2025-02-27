@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', async function() {
     currentTime = currentTime.getUTCHours() * 60 + currentTime.getUTCMinutes();
     button = document.querySelector('#next');
     //Get sunset data
-    let sunsetData = await fetch('https://sunset-data-1-michaelmont.replit.app/')
+    let sunsetData = await fetch('https://sunset-data.onrender.com')
     .then(response => response.json())
     console.log(sunsetData.length);
     //Sort the sunset data by time

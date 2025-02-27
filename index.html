@@ -43,24 +43,15 @@
     <script src="app.js"></script>
     <div id="stream"></div>
     <button class="buttonstyle" id="next" onclick="nextStream()">Next sunset</button>
-    <div id="info"></div>
+    <div id="info">
+        <h2>Eternal Sunset is probably broken now</h2>
+        <p>This site relies on public livestreams from Youtube. These livestreams typically last a few months before they are re-started, which creates a new URL.</p>
+        <p>I may update this site in the future, but it's not a priority right now. You can see my other projects at <a href="https://funwebsite.fun">Funwebsite.fun</a>.</p>
+        <p>If you want to make your own version, you can re-use my code. Here's the <a target="_blank" href="https://github.com/tichaelmurvey/sunsets">website</a>, and the <a href="https://github.com/tichaelmurvey/sunset-data">API</a>.</p>
+    </div>
     <div>
         <p>Was this website a nice moment in your day? </p>
         <a class="buttonstyle" target="_blank" href="https://www.buymeacoffee.com/frommountains?utm_source=sunset" class="coffee">Buy me a coffee</a>
-    </div>
-    <div id="suggest" style="display: none">
-        <h2>Suggest a sunset</h2>
-        <p>Send me a Youtube stream and I might add it to the site.</p>
-        <form action="/" name="submission" netlify>
-            <label for="link">Link</label>
-            <input type="text" name="link" id="link" required>
-            <button class="buttonstyle" type="submit" value="Submit">Submit</button>
-        </form>
-        <h2>This livestream is broken</h2>
-        <form action="/" name="broken" method="POST" netlify>
-            <input type="text" name="stream" id="broken">
-            <button class="buttonstyle" type="submit">Press this button and I'll try to fix it.</button>    
-        </form>
     </div>
     <div class="notes">
         <h2>Questions</h2>  
